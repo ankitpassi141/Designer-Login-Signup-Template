@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="ToolBarATM" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+    <item name="android:textColorPrimary">#ffffff</item>
+    <item name="android:actionMenuTextColor">#ffffff</item>
+  </style>
+</resources>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <color name="window_background">#ffffff</color>
+  <color name="ColorPrimary">#252626</color>
+  <color name="ColorPrimaryDark">#1a2121</color>
+  <color name="hint">#848484</color>
+  <color name="highlight">#ffffff</color>
+  <color name="basecolor">#ef0000</color>
+</resources>
+
