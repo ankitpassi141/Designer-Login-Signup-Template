@@ -2,6 +2,8 @@
 
 Please credit the original designer of this project if you're using this design and project. Thanks
 
+Visit my Behance profile for more UI designs: [Ankit Passi on Behance](https://www.behance.net/passiankitd8a0)
+
 [![N|Solid](https://mir-cdn.behance.net/v1/rendition/project_modules/max_1200/1162fc57263863.59ce9d68ea420.png)](https://github.com/ankitpassi141/Designer-Login-Signup-Template)
 
 * [Introduction](#1---introduction)
