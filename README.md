@@ -40,16 +40,11 @@ Will make a selection screen for Custom Dynamic UI loading in future.
 
 ## 4.   Credits
 
-Mockup 01:
-All the Design credits goes to Tian.
-
+Mockup 01: All the Design credits goes to Tian.
 Original Design: https://dribbble.com/shots/3346069-001-Log-in-Sing-up
 Profile : https://dribbble.com/Boomtiana
 
 
-Mockup 02:
-
-All the Design credits goes to Nimasha Perera.
-
+Mockup 02: All the Design credits goes to Nimasha Perera.
 Original Design: https://dribbble.com/shots/2722811-WIP-Social-App
 Profile : https://www.behance.net/nimashasperera
