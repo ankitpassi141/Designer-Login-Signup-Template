@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:gravity="center">
+    <ImageView
+        android:src="@drawable/bgmockup2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView1"
+        android:scaleType="centerCrop"
+        android:layout_centerInParent="true"
+        android:background="@drawable/mockup2_layoutborder" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutBase"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Mockup2linearLayout_RegisterLayout"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone">
+            <ScrollView
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/scrollView1">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Mockup2linearLayout2"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/mockup2_layoutborder">
+                    <ImageView
+                        android:src="@drawable/ic_close"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mockup2_RegisterCloseLayout"
+                        android:layout_gravity="right"
+                        android:layout_marginBottom="10dp"
+                        android:hapticFeedbackEnabled="true" />
+                    <TextView
+                        android:text="People"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mockup2_RegisterTagline1"
+                        android:textColor="#FF553F"
+                        android:textStyle="bold"
+                        android:textSize="25sp"
+                        android:layout_marginBottom="40dp"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:text="First Time?"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mockup2_RegisterTagline2"
+                        android:textColor="#000000"
+                        android:textSize="25sp"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:text="Connect with Us!"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_width="193.0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mockup2_RegisterTagline3"
+                        android:textColor="#000000"
+                        android:textSize="25sp"
+                        android:layout_marginBottom="70dp"
+                        android:layout_marginLeft="15dp" />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:id="@+id/mockup2_RegisterFullName"
+                        android:hint="Full Name"
+                        android:password="true"
+                        android:textColorHint="#bac3d3"
+                        android:textColor="#000000"
+                        android:background="@drawable/mockup2_textfieldlowerborder"
+                        android:layout_marginBottom="30dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp"
+                        android:paddingLeft="1dp"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:inputType="textPersonName" />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:id="@+id/mockup2_RegisterEmailID"
+                        android:textColor="#000000"
+                        android:hint="Email Address"
+                        android:textColorHint="#bac3d3"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp"
+                        android:layout_marginBottom="30dp"
+                        android:paddingTop="5dp"
+                        android:paddingLeft="1dp"
+                        android:paddingBottom="5dp"
+                        android:background="@drawable/mockup2_textfieldlowerborder"
+                        android:inputType="textEmailAddress" />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:id="@+id/mockup2_RegisterPassword"
+                        android:hint="Password"
+                        android:password="true"
+                        android:textColorHint="#bac3d3"
+                        android:textColor="#000000"
+                        android:background="@drawable/mockup2_textfieldlowerborder"
+                        android:layout_marginBottom="40dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp"
+                        android:paddingLeft="1dp"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:inputType="textPassword" />
+                    <TextView
+                        android:text="Terms and Conditions"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mockup2_RegisterTermsCondition"
+                        android:layout_gravity="right"
+                        android:textStyle="bold"
+                        android:textColor="#FF553F"
+                        android:layout_marginRight="25dp"
+                        android:layout_marginBottom="10dp"
+                        android:hapticFeedbackEnabled="true" />
+                </LinearLayout>
+            </ScrollView>
+            <Button
+                android:text="Register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mockup2_RegisterCompleteButton"
+                android:background="@drawable/mockup2_signupbuttonred"
+                android:textStyle="bold"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Mockup2linearLayout_LoginScreen"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone">
+            <ScrollView
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/scrollView1">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Mockup2linearLayout2"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/mockup2_layoutborder">
+                    <ImageView
+                        android:src="@drawable/ic_close"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mockup2_LoginCloseLayout"
+                        android:layout_gravity="right"
+                        android:layout_marginBottom="10dp"
+                        android:hapticFeedbackEnabled="true" />
+                    <TextView
+                        android:text="People"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mockup2_loginTagline1"
+                        android:textColor="#FF553F"
+                        android:textStyle="bold"
+                        android:textSize="25sp"
+                        android:layout_marginBottom="40dp"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:text="Hello There! Welcome Back!"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_width="173.0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mockup2_loginTagline2"
+                        android:textColor="#000000"
+                        android:textSize="25sp"
+                        android:layout_marginBottom="70dp"
+                        android:layout_marginLeft="15dp" />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:id="@+id/mockup2_LoginEmailID"
+                        android:textColor="#000000"
+                        android:hint="Email Address"
+                        android:textColorHint="#bac3d3"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp"
+                        android:layout_marginBottom="30dp"
+                        android:paddingTop="5dp"
+                        android:paddingLeft="1dp"
+                        android:paddingBottom="5dp"
+                        android:background="@drawable/mockup2_textfieldlowerborder"
+                        android:inputType="textEmailAddress" />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:id="@+id/mockup2_LoginPassword"
+                        android:hint="Password"
+                        android:password="true"
+                        android:textColorHint="#bac3d3"
+                        android:textColor="#000000"
+                        android:background="@drawable/mockup2_textfieldlowerborder"
+                        android:layout_marginBottom="40dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp"
+                        android:paddingLeft="1dp"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:inputType="textPassword" />
+                    <TextView
+                        android:text="Forgot your Password?"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mockup2_LoginForgotPassword"
+                        android:layout_gravity="right"
+                        android:textStyle="bold"
+                        android:textColor="#FF553F"
+                        android:layout_marginRight="25dp"
+                        android:layout_marginBottom="10dp"
+                        android:hapticFeedbackEnabled="true" />
+                </LinearLayout>
+            </ScrollView>
+            <Button
+                android:text="Sign In"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mockup2_LoginCompleteButton"
+                android:background="@drawable/mockup2_signupbuttonred"
+                android:textStyle="bold"
+                android:hapticFeedbackEnabled="true"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Mockup2linearLayout_MainScreen"
+            android:layout_marginBottom="20dp"
+            android:visibility="visible">
+            <TextView
+                android:text="People"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mockup2_mainLayoutTagline1"
+                android:textColor="#FF553F"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_marginBottom="60dp" />
+            <TextView
+                android:text="Easiest way to be connected!"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="173.0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/mockup2_mainLayoutTagline2"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:layout_marginBottom="70dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout1"
+                android:weightSum="1">
+                <Button
+                    android:text="Sign In"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/mockup2_loginButton"
+                    android:layout_weight="0.5"
+                    android:textColor="#FF553F"
+                    android:textStyle="bold"
+                    android:background="@drawable/mockup2_buttonredborder"
+                    android:hapticFeedbackEnabled="true" />
+                <Button
+                    android:text="Register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/mockup2_loginSignupButton"
+                    android:layout_weight="0.5"
+                    android:textStyle="bold"
+                    android:textColor="#FF553F"
+                    android:background="@drawable/mockup2_buttonredborder2"
+                    android:hapticFeedbackEnabled="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

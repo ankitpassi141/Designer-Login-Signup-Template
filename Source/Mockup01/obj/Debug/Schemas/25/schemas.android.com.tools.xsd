@@ -2,7 +2,7 @@
 <xs:schema xmlns:tools="http://schemas.android.com/tools" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/tools" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>30-Sep-17 00:03:49</xs:documentation>
+    <xs:documentation>05-Oct-17 02:58:41</xs:documentation>
   </xs:annotation>
   <xs:attribute name="layout">
     <xs:annotation>
@@ -39,7 +39,9 @@
             <xs:enumeration value="@layout/abc_search_dropdown_item_icons_2line" />
             <xs:enumeration value="@layout/abc_search_view" />
             <xs:enumeration value="@layout/abc_select_dialog_material" />
+            <xs:enumeration value="@layout/chooseuilayout" />
             <xs:enumeration value="@layout/main" />
+            <xs:enumeration value="@layout/mockup2_loginscreen" />
             <xs:enumeration value="@layout/notification_action" />
             <xs:enumeration value="@layout/notification_action_tombstone" />
             <xs:enumeration value="@layout/notification_media_action" />
@@ -134,7 +136,9 @@
             <xs:enumeration value="@layout/abc_search_dropdown_item_icons_2line" />
             <xs:enumeration value="@layout/abc_search_view" />
             <xs:enumeration value="@layout/abc_select_dialog_material" />
+            <xs:enumeration value="@layout/chooseuilayout" />
             <xs:enumeration value="@layout/main" />
+            <xs:enumeration value="@layout/mockup2_loginscreen" />
             <xs:enumeration value="@layout/notification_action" />
             <xs:enumeration value="@layout/notification_action_tombstone" />
             <xs:enumeration value="@layout/notification_media_action" />
@@ -229,7 +233,9 @@
             <xs:enumeration value="@layout/abc_search_dropdown_item_icons_2line" />
             <xs:enumeration value="@layout/abc_search_view" />
             <xs:enumeration value="@layout/abc_select_dialog_material" />
+            <xs:enumeration value="@layout/chooseuilayout" />
             <xs:enumeration value="@layout/main" />
+            <xs:enumeration value="@layout/mockup2_loginscreen" />
             <xs:enumeration value="@layout/notification_action" />
             <xs:enumeration value="@layout/notification_action_tombstone" />
             <xs:enumeration value="@layout/notification_media_action" />
@@ -324,7 +330,9 @@
             <xs:enumeration value="@layout/abc_search_dropdown_item_icons_2line" />
             <xs:enumeration value="@layout/abc_search_view" />
             <xs:enumeration value="@layout/abc_select_dialog_material" />
+            <xs:enumeration value="@layout/chooseuilayout" />
             <xs:enumeration value="@layout/main" />
+            <xs:enumeration value="@layout/mockup2_loginscreen" />
             <xs:enumeration value="@layout/notification_action" />
             <xs:enumeration value="@layout/notification_action_tombstone" />
             <xs:enumeration value="@layout/notification_media_action" />

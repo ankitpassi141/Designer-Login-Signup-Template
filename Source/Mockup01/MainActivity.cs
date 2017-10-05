@@ -7,7 +7,7 @@ using System;
 
 namespace Mockup01
 {
-    [Activity(MainLauncher = true,Theme = "@style/AppTheme.ActionBar.Transparent")]
+    [Activity(MainLauncher = false,Theme = "@style/AppTheme.ActionBar.Transparent")]
     public class MainActivity : Activity
     {
         EditText emailId, password, signupFullName, signupEmailID, signupPassword;
