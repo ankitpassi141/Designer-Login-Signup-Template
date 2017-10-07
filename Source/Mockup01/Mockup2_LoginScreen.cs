@@ -7,7 +7,7 @@ using Android.Widget;
 
 namespace Mockup01
 {
-    [Activity(MainLauncher = true, Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
+    [Activity(MainLauncher = true, Theme = "@style/Theme.AppCompat.Light.NoActionBar",Label = "Designer Sample 02")]
     public class Mockup2_LoginScreen : AppCompatActivity
     {
         TextView mockup2_loginTagline1, mockup2_loginTagline2, mockup2_mainLayoutTagline1, mockup2_mainLayoutTagline2, mockup_loginForgotPassword;
@@ -91,7 +91,6 @@ namespace Mockup01
 
         private void ClickEvents()
         {
-
             //Click event of Buttons and Clickable Textviews
             mockup_loginButton.Click += Mockup_loginButton_Click;
             mockup_loginSignupButton.Click += Mockup_loginSignupButton_Click;
@@ -127,5 +126,24 @@ namespace Mockup01
             mainScreenLayout.Visibility = ViewStates.Gone;
             mockup2_loginLayout.Visibility = ViewStates.Visible;
         }
+
+        public override void OnBackPressed()
+        {
+            if(mockup2_loginLayout.Visibility==ViewStates.Visible)
+            {
+                mockup2_loginLayout.Visibility = ViewStates.Gone;
+                mainScreenLayout.Visibility = ViewStates.Visible;
+            }
+            else if(mockup2_registerLayout.Visibility == ViewStates.Visible)
+            {
+                mainScreenLayout.Visibility = ViewStates.Visible;
+                mockup2_registerLayout.Visibility = ViewStates.Gone;
+            }
+            else if(mainScreenLayout.Visibility==ViewStates.Visible)
+            {
+                Toast.MakeText(this, "Back Button Clicked", ToastLength.Short).Show();
+            }
+        }
+
     }
 }

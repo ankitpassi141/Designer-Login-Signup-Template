@@ -6,8 +6,13 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:icon="@drawable/ic_launcher" android:label="Android Sample Templates" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
     <activity android:label="Choose UI Layout" android:theme="@style/AppTheme.ActionBar.Transparent" android:name="md5e45d223d5b50a1773f425a8ae55fc5a6.ChooseUITemplate" />
-    <activity android:theme="@style/AppTheme.ActionBar.Transparent" android:name="md5e45d223d5b50a1773f425a8ae55fc5a6.MainActivity" />
-    <activity android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md5e45d223d5b50a1773f425a8ae55fc5a6.Mockup2_LoginScreen">
+    <activity android:label="Designer Sample 01" android:theme="@style/AppTheme.ActionBar.Transparent" android:name="md5e45d223d5b50a1773f425a8ae55fc5a6.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="Designer Sample 02" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md5e45d223d5b50a1773f425a8ae55fc5a6.Mockup2_LoginScreen">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

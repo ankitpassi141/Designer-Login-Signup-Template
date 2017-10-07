@@ -7,7 +7,7 @@ using System;
 
 namespace Mockup01
 {
-    [Activity(MainLauncher = false,Theme = "@style/AppTheme.ActionBar.Transparent")]
+    [Activity(MainLauncher = true,Theme = "@style/AppTheme.ActionBar.Transparent",Label ="Designer Sample 01")]
     public class MainActivity : Activity
     {
         EditText emailId, password, signupFullName, signupEmailID, signupPassword;
@@ -100,10 +100,20 @@ namespace Mockup01
             textViewSignupPassword.SetTypeface(tf, TypefaceStyle.Bold);
             signupPassword.SetTypeface(tf, TypefaceStyle.Normal);
             SignupButton.SetTypeface(tf, TypefaceStyle.Bold);
+        }
 
-
-
-
+        public override void OnBackPressed()
+        {
+            if(signupLayout.Visibility==ViewStates.Visible)
+            {
+                loginLayout.Visibility = ViewStates.Visible;
+                helpButton.SetTextColor(Color.Rgb(132, 173, 186));
+                signupLayout.Visibility = ViewStates.Gone;
+            }
+            else if(loginLayout.Visibility==ViewStates.Visible)
+            {
+                Toast.MakeText(this, "Back Button Pressed", ToastLength.Short).Show();
+            }
         }
     }
 }
