@@ -142,6 +142,7 @@ namespace Mockup01
             else if(mainScreenLayout.Visibility==ViewStates.Visible)
             {
                 Toast.MakeText(this, "Back Button Clicked", ToastLength.Short).Show();
+                
             }
         }
 
