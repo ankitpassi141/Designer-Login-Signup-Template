@@ -5,7 +5,7 @@
   <xs:import schemaLocation="schemas.android.com.tools.xsd" namespace="http://schemas.android.com/tools" />
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>08-Oct-17 03:08:04</xs:documentation>
+    <xs:documentation>08-Oct-17 19:24:45</xs:documentation>
   </xs:annotation>
   <xs:group name="any-view">
     <xs:choice>
@@ -82,9 +82,7 @@
       <xs:element ref="RadioGroup" />
       <xs:element ref="TextSwitcher" />
       <xs:element ref="fragment" />
-      <xs:element ref="android.support.v7.view.menu.ExpandedMenuView" />
-      <xs:element ref="android.support.v7.view.menu.ListMenuItemView" />
-      <xs:element ref="android.support.v7.view.menu.ActionMenuItemView" />
+      <xs:element ref="android.support.v7.widget.CardView" />
       <xs:element ref="android.support.v7.widget.ViewStubCompat" />
       <xs:element ref="android.support.v7.widget.SwitchCompat" />
       <xs:element ref="android.support.v7.widget.SearchView" />
@@ -108,7 +106,9 @@
       <xs:element ref="android.support.v7.widget.ActionBarContainer" />
       <xs:element ref="android.support.v7.widget.AbsActionBarView" />
       <xs:element ref="android.support.v7.widget.Toolbar" />
-      <xs:element ref="android.support.v7.widget.CardView" />
+      <xs:element ref="android.support.v7.view.menu.ExpandedMenuView" />
+      <xs:element ref="android.support.v7.view.menu.ListMenuItemView" />
+      <xs:element ref="android.support.v7.view.menu.ActionMenuItemView" />
       <xs:element ref="android.support.v4.widget.Space" />
       <xs:element ref="android.support.v4.widget.SlidingPaneLayout" />
       <xs:element ref="android.support.v4.widget.NestedScrollView" />
@@ -1480,34 +1480,26 @@
     <xs:attribute ref="android:layout_marginEnd" />
     <xs:attribute ref="android:style" />
   </xs:complexType>
-  <xs:element name="android.support.v7.view.menu.ExpandedMenuView" type="android.support.v7.view.menu.ExpandedMenuView">
+  <xs:element name="android.support.v7.widget.CardView" type="android.support.v7.widget.CardView">
     <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.View.Menu.ExpandedMenuView</xs:documentation>
+      <xs:documentation>Runtime Type: Android.Support.V7.Widget.CardView</xs:documentation>
     </xs:annotation>
   </xs:element>
-  <xs:complexType name="android.support.v7.view.menu.ExpandedMenuView">
+  <xs:complexType name="android.support.v7.widget.CardView">
     <xs:complexContent mixed="false">
-      <xs:extension base="ListView" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.view.menu.ListMenuItemView" type="android.support.v7.view.menu.ListMenuItemView">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.View.Menu.ListMenuItemView</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.view.menu.ListMenuItemView">
-    <xs:complexContent mixed="false">
-      <xs:extension base="LinearLayout" />
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="android.support.v7.view.menu.ActionMenuItemView" type="android.support.v7.view.menu.ActionMenuItemView">
-    <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.View.Menu.ActionMenuItemView</xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:complexType name="android.support.v7.view.menu.ActionMenuItemView">
-    <xs:complexContent mixed="false">
-      <xs:extension base="TextView" />
+      <xs:extension base="FrameLayout">
+        <xs:attribute ref="app:cardBackgroundColor" />
+        <xs:attribute ref="app:cardCornerRadius" />
+        <xs:attribute ref="app:cardElevation" />
+        <xs:attribute ref="app:cardMaxElevation" />
+        <xs:attribute ref="app:cardUseCompatPadding" />
+        <xs:attribute ref="app:cardPreventCornerOverlap" />
+        <xs:attribute ref="app:contentPadding" />
+        <xs:attribute ref="app:contentPaddingLeft" />
+        <xs:attribute ref="app:contentPaddingRight" />
+        <xs:attribute ref="app:contentPaddingTop" />
+        <xs:attribute ref="app:contentPaddingBottom" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v7.widget.ViewStubCompat" type="android.support.v7.widget.ViewStubCompat">
@@ -1804,26 +1796,34 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:element name="android.support.v7.widget.CardView" type="android.support.v7.widget.CardView">
+  <xs:element name="android.support.v7.view.menu.ExpandedMenuView" type="android.support.v7.view.menu.ExpandedMenuView">
     <xs:annotation>
-      <xs:documentation>Runtime Type: Android.Support.V7.Widget.CardView</xs:documentation>
+      <xs:documentation>Runtime Type: Android.Support.V7.View.Menu.ExpandedMenuView</xs:documentation>
     </xs:annotation>
   </xs:element>
-  <xs:complexType name="android.support.v7.widget.CardView">
+  <xs:complexType name="android.support.v7.view.menu.ExpandedMenuView">
     <xs:complexContent mixed="false">
-      <xs:extension base="FrameLayout">
-        <xs:attribute ref="app:cardBackgroundColor" />
-        <xs:attribute ref="app:cardCornerRadius" />
-        <xs:attribute ref="app:cardElevation" />
-        <xs:attribute ref="app:cardMaxElevation" />
-        <xs:attribute ref="app:cardUseCompatPadding" />
-        <xs:attribute ref="app:cardPreventCornerOverlap" />
-        <xs:attribute ref="app:contentPadding" />
-        <xs:attribute ref="app:contentPaddingLeft" />
-        <xs:attribute ref="app:contentPaddingRight" />
-        <xs:attribute ref="app:contentPaddingTop" />
-        <xs:attribute ref="app:contentPaddingBottom" />
-      </xs:extension>
+      <xs:extension base="ListView" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.view.menu.ListMenuItemView" type="android.support.v7.view.menu.ListMenuItemView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.View.Menu.ListMenuItemView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.view.menu.ListMenuItemView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="LinearLayout" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="android.support.v7.view.menu.ActionMenuItemView" type="android.support.v7.view.menu.ActionMenuItemView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: Android.Support.V7.View.Menu.ActionMenuItemView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="android.support.v7.view.menu.ActionMenuItemView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="TextView" />
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v4.widget.Space" type="android.support.v4.widget.Space">

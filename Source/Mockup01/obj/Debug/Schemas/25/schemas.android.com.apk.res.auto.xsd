@@ -2,7 +2,7 @@
 <xs:schema xmlns:app="http://schemas.android.com/apk/res-auto" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res-auto" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>08-Oct-17 03:08:05</xs:documentation>
+    <xs:documentation>08-Oct-17 19:24:45</xs:documentation>
   </xs:annotation>
   <xs:attribute name="allowStacking">
     <xs:annotation>
@@ -872,6 +872,7 @@
             <xs:enumeration value="@drawable/ic_launcher" />
             <xs:enumeration value="@drawable/ic_share" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/mainlayoutbg2" />
             <xs:enumeration value="@drawable/materialcard" />
             <xs:enumeration value="@drawable/mockup01" />
             <xs:enumeration value="@drawable/mockup02" />
@@ -1321,6 +1322,7 @@
             <xs:enumeration value="@drawable/ic_launcher" />
             <xs:enumeration value="@drawable/ic_share" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/mainlayoutbg2" />
             <xs:enumeration value="@drawable/materialcard" />
             <xs:enumeration value="@drawable/mockup01" />
             <xs:enumeration value="@drawable/mockup02" />
@@ -1696,6 +1698,7 @@
             <xs:enumeration value="@drawable/ic_launcher" />
             <xs:enumeration value="@drawable/ic_share" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/mainlayoutbg2" />
             <xs:enumeration value="@drawable/materialcard" />
             <xs:enumeration value="@drawable/mockup01" />
             <xs:enumeration value="@drawable/mockup02" />
@@ -3696,6 +3699,7 @@
             <xs:enumeration value="@drawable/ic_launcher" />
             <xs:enumeration value="@drawable/ic_share" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/mainlayoutbg2" />
             <xs:enumeration value="@drawable/materialcard" />
             <xs:enumeration value="@drawable/mockup01" />
             <xs:enumeration value="@drawable/mockup02" />
@@ -4212,6 +4216,7 @@
             <xs:enumeration value="@drawable/ic_launcher" />
             <xs:enumeration value="@drawable/ic_share" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/mainlayoutbg2" />
             <xs:enumeration value="@drawable/materialcard" />
             <xs:enumeration value="@drawable/mockup01" />
             <xs:enumeration value="@drawable/mockup02" />
@@ -4587,6 +4592,7 @@
             <xs:enumeration value="@drawable/ic_launcher" />
             <xs:enumeration value="@drawable/ic_share" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/mainlayoutbg2" />
             <xs:enumeration value="@drawable/materialcard" />
             <xs:enumeration value="@drawable/mockup01" />
             <xs:enumeration value="@drawable/mockup02" />
@@ -5081,6 +5087,7 @@
             <xs:enumeration value="@drawable/ic_launcher" />
             <xs:enumeration value="@drawable/ic_share" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/mainlayoutbg2" />
             <xs:enumeration value="@drawable/materialcard" />
             <xs:enumeration value="@drawable/mockup01" />
             <xs:enumeration value="@drawable/mockup02" />
@@ -5456,6 +5463,7 @@
             <xs:enumeration value="@drawable/ic_launcher" />
             <xs:enumeration value="@drawable/ic_share" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/mainlayoutbg2" />
             <xs:enumeration value="@drawable/materialcard" />
             <xs:enumeration value="@drawable/mockup01" />
             <xs:enumeration value="@drawable/mockup02" />
@@ -6165,6 +6173,7 @@
             <xs:enumeration value="@drawable/ic_launcher" />
             <xs:enumeration value="@drawable/ic_share" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/mainlayoutbg2" />
             <xs:enumeration value="@drawable/materialcard" />
             <xs:enumeration value="@drawable/mockup01" />
             <xs:enumeration value="@drawable/mockup02" />
@@ -6540,6 +6549,7 @@
             <xs:enumeration value="@drawable/ic_launcher" />
             <xs:enumeration value="@drawable/ic_share" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/mainlayoutbg2" />
             <xs:enumeration value="@drawable/materialcard" />
             <xs:enumeration value="@drawable/mockup01" />
             <xs:enumeration value="@drawable/mockup02" />
@@ -6915,6 +6925,7 @@
             <xs:enumeration value="@drawable/ic_launcher" />
             <xs:enumeration value="@drawable/ic_share" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/mainlayoutbg2" />
             <xs:enumeration value="@drawable/materialcard" />
             <xs:enumeration value="@drawable/mockup01" />
             <xs:enumeration value="@drawable/mockup02" />
@@ -7364,6 +7375,7 @@
             <xs:enumeration value="@drawable/ic_launcher" />
             <xs:enumeration value="@drawable/ic_share" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/mainlayoutbg2" />
             <xs:enumeration value="@drawable/materialcard" />
             <xs:enumeration value="@drawable/mockup01" />
             <xs:enumeration value="@drawable/mockup02" />
@@ -7739,6 +7751,7 @@
             <xs:enumeration value="@drawable/ic_launcher" />
             <xs:enumeration value="@drawable/ic_share" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/mainlayoutbg2" />
             <xs:enumeration value="@drawable/materialcard" />
             <xs:enumeration value="@drawable/mockup01" />
             <xs:enumeration value="@drawable/mockup02" />
@@ -8221,6 +8234,7 @@
             <xs:enumeration value="@drawable/ic_launcher" />
             <xs:enumeration value="@drawable/ic_share" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/mainlayoutbg2" />
             <xs:enumeration value="@drawable/materialcard" />
             <xs:enumeration value="@drawable/mockup01" />
             <xs:enumeration value="@drawable/mockup02" />
@@ -8670,6 +8684,7 @@
             <xs:enumeration value="@drawable/ic_launcher" />
             <xs:enumeration value="@drawable/ic_share" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/mainlayoutbg2" />
             <xs:enumeration value="@drawable/materialcard" />
             <xs:enumeration value="@drawable/mockup01" />
             <xs:enumeration value="@drawable/mockup02" />
@@ -9229,6 +9244,7 @@
             <xs:enumeration value="@drawable/ic_launcher" />
             <xs:enumeration value="@drawable/ic_share" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/mainlayoutbg2" />
             <xs:enumeration value="@drawable/materialcard" />
             <xs:enumeration value="@drawable/mockup01" />
             <xs:enumeration value="@drawable/mockup02" />
@@ -9886,6 +9902,7 @@
             <xs:enumeration value="@drawable/ic_launcher" />
             <xs:enumeration value="@drawable/ic_share" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/mainlayoutbg2" />
             <xs:enumeration value="@drawable/materialcard" />
             <xs:enumeration value="@drawable/mockup01" />
             <xs:enumeration value="@drawable/mockup02" />
@@ -11525,6 +11542,7 @@
             <xs:enumeration value="@drawable/ic_launcher" />
             <xs:enumeration value="@drawable/ic_share" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/mainlayoutbg2" />
             <xs:enumeration value="@drawable/materialcard" />
             <xs:enumeration value="@drawable/mockup01" />
             <xs:enumeration value="@drawable/mockup02" />
@@ -12084,6 +12102,7 @@
             <xs:enumeration value="@drawable/ic_launcher" />
             <xs:enumeration value="@drawable/ic_share" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/mainlayoutbg2" />
             <xs:enumeration value="@drawable/materialcard" />
             <xs:enumeration value="@drawable/mockup01" />
             <xs:enumeration value="@drawable/mockup02" />
@@ -12662,6 +12681,7 @@
             <xs:enumeration value="@drawable/ic_launcher" />
             <xs:enumeration value="@drawable/ic_share" />
             <xs:enumeration value="@drawable/icon" />
+            <xs:enumeration value="@drawable/mainlayoutbg2" />
             <xs:enumeration value="@drawable/materialcard" />
             <xs:enumeration value="@drawable/mockup01" />
             <xs:enumeration value="@drawable/mockup02" />

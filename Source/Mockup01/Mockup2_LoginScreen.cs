@@ -7,7 +7,7 @@ using Android.Widget;
 
 namespace Mockup01
 {
-    [Activity(MainLauncher = true, Theme = "@style/Theme.AppCompat.Light.NoActionBar",Label = "Designer Sample 02")]
+    [Activity(MainLauncher = false, Theme = "@style/Theme.AppCompat.Light.NoActionBar",Label = "Designer Sample 02")]
     public class Mockup2_LoginScreen : AppCompatActivity
     {
         TextView mockup2_loginTagline1, mockup2_loginTagline2, mockup2_mainLayoutTagline1, mockup2_mainLayoutTagline2, mockup_loginForgotPassword;
@@ -141,8 +141,7 @@ namespace Mockup01
             }
             else if(mainScreenLayout.Visibility==ViewStates.Visible)
             {
-                Toast.MakeText(this, "Back Button Clicked", ToastLength.Short).Show();
-                
+                base.OnBackPressed();
             }
         }
 
