@@ -55,6 +55,8 @@ namespace Mockup01
             mockup01_description.SetTypeface(tf, TypefaceStyle.Bold);
             mockup02_description.SetTypeface(tf, TypefaceStyle.Bold);
 
+            mockup01.TranslationZ = 120;
+
         }
 
         private void ClickEvents()

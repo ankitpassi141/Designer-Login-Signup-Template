@@ -293,6 +293,7 @@ E:\Designer-Login-Signup-Template\Source\Mockup01\bin\Debug\Xamarin.Android.Supp
 E:\Designer-Login-Signup-Template\Source\Mockup01\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
 E:\Designer-Login-Signup-Template\Source\Mockup01\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
 E:\Designer-Login-Signup-Template\Source\Mockup01\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+E:\Designer-Login-Signup-Template\Source\Mockup01\obj\Debug\Mockup01.csprojResolveAssemblyReference.cache
 E:\Designer-Login-Signup-Template\Source\Mockup01\obj\Debug\Mockup01.csproj.CoreCompileInputs.cache
 E:\Designer-Login-Signup-Template\Source\Mockup01\obj\Debug\Mockup01.dll
 E:\Designer-Login-Signup-Template\Source\Mockup01\obj\Debug\Mockup01.pdb
