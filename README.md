@@ -28,15 +28,10 @@ All the XML files, Icons and Background Image is created from Scratch in Photosh
 ## 3.   Running the Project
 Clone the repository and open the "Mockup01.sln" to open the project in Visual Studio. Let it download all the packages required by project which is not a lot, just AppCompat libraries.
 
-If you want to deploy "Mockup 01", In the file 
->MainActivity.cs
-Change the "MainLauncher" to >True
+If for some reason Project failed to "build" , then Open Nuget Package Manager in Visual Studio and Install all the visible packages.
+Then, "Clean" the project and then try to "Build".
 
-If you want to deploy "Mockup 02", In the file 
->Mockup2_LoginScreen.cs
-Change the "MainLauncher" to >True
-
-Will make a selection screen for Custom Dynamic UI loading in future.
+PS: Try to keep path of Project as small as possible, because Xamarin File Path size limitations for "Building" Project.
 
 ## 4.   Credits
 
