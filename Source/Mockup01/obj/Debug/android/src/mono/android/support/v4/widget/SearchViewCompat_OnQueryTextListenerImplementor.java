@@ -18,7 +18,7 @@ public class SearchViewCompat_OnQueryTextListenerImplementor
 	}
 
 
-	public SearchViewCompat_OnQueryTextListenerImplementor () throws java.lang.Throwable
+	public SearchViewCompat_OnQueryTextListenerImplementor ()
 	{
 		super ();
 		if (getClass () == SearchViewCompat_OnQueryTextListenerImplementor.class)

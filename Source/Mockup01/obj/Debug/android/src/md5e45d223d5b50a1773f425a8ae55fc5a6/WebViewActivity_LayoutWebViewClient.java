@@ -16,7 +16,7 @@ public class WebViewActivity_LayoutWebViewClient
 	}
 
 
-	public WebViewActivity_LayoutWebViewClient () throws java.lang.Throwable
+	public WebViewActivity_LayoutWebViewClient ()
 	{
 		super ();
 		if (getClass () == WebViewActivity_LayoutWebViewClient.class)

@@ -17,7 +17,7 @@ public class ViewPager_OnAdapterChangeListenerImplementor
 	}
 
 
-	public ViewPager_OnAdapterChangeListenerImplementor () throws java.lang.Throwable
+	public ViewPager_OnAdapterChangeListenerImplementor ()
 	{
 		super ();
 		if (getClass () == ViewPager_OnAdapterChangeListenerImplementor.class)

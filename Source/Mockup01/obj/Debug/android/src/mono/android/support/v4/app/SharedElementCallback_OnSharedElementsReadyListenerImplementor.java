@@ -17,7 +17,7 @@ public class SharedElementCallback_OnSharedElementsReadyListenerImplementor
 	}
 
 
-	public SharedElementCallback_OnSharedElementsReadyListenerImplementor () throws java.lang.Throwable
+	public SharedElementCallback_OnSharedElementsReadyListenerImplementor ()
 	{
 		super ();
 		if (getClass () == SharedElementCallback_OnSharedElementsReadyListenerImplementor.class)

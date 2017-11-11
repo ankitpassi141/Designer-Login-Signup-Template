@@ -16,7 +16,7 @@ public class FirstScreenLayout
 	}
 
 
-	public FirstScreenLayout () throws java.lang.Throwable
+	public FirstScreenLayout ()
 	{
 		super ();
 		if (getClass () == FirstScreenLayout.class)

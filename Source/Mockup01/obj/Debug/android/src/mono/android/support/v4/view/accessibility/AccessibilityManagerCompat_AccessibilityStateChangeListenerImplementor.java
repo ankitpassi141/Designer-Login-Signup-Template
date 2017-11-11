@@ -17,7 +17,7 @@ public class AccessibilityManagerCompat_AccessibilityStateChangeListenerImplemen
 	}
 
 
-	public AccessibilityManagerCompat_AccessibilityStateChangeListenerImplementor () throws java.lang.Throwable
+	public AccessibilityManagerCompat_AccessibilityStateChangeListenerImplementor ()
 	{
 		super ();
 		if (getClass () == AccessibilityManagerCompat_AccessibilityStateChangeListenerImplementor.class)

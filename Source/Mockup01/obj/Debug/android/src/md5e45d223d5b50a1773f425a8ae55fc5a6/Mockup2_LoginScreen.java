@@ -17,7 +17,7 @@ public class Mockup2_LoginScreen
 	}
 
 
-	public Mockup2_LoginScreen () throws java.lang.Throwable
+	public Mockup2_LoginScreen ()
 	{
 		super ();
 		if (getClass () == Mockup2_LoginScreen.class)

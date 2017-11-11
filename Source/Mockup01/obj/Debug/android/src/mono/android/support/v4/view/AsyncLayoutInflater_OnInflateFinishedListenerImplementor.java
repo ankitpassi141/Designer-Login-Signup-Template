@@ -17,7 +17,7 @@ public class AsyncLayoutInflater_OnInflateFinishedListenerImplementor
 	}
 
 
-	public AsyncLayoutInflater_OnInflateFinishedListenerImplementor () throws java.lang.Throwable
+	public AsyncLayoutInflater_OnInflateFinishedListenerImplementor ()
 	{
 		super ();
 		if (getClass () == AsyncLayoutInflater_OnInflateFinishedListenerImplementor.class)

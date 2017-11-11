@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--
    Copyright (C) 2015 The Android Open Source Project
 
@@ -14,12 +14,12 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 -->
-<manifest
-    package="android.support.graphics.drawable"
-    xmlns:android="http://schemas.android.com/apk/res/android" >
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="android.support.graphics.drawable">
 
-    <uses-sdk android:minSdkVersion="9" />
+    <uses-sdk android:minSdkVersion="14" />
 
-    <application />
+    <application>
+        <meta-data android:name="android.support.VERSION" android:value="26.1.0" />
+    </application>
 
 </manifest>

@@ -5,7 +5,7 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:icon="@drawable/ic_launcher" android:label="Android Sample Templates" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
-    <activity android:label="Choose Your User Interface" android:name="md5e45d223d5b50a1773f425a8ae55fc5a6.FirstScreenLayout">
+    <activity android:name="md5e45d223d5b50a1773f425a8ae55fc5a6.FirstScreenLayout">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
@@ -22,7 +22,8 @@
         <category android:name="mono.android.intent.category.SEPPUKU.Mockup01.Mockup01" />
       </intent-filter>
     </receiver>
-    <meta-data android:name="android.support.VERSION" android:value="25.4.0" />
+    <meta-data android:name="android.arch.lifecycle.VERSION" android:value="27.0.0-SNAPSHOT" />
+    <meta-data android:name="android.support.VERSION" android:value="26.1.0" />
   </application>
   <activity android:name=".MyTransparentActionbarActivity" android:theme="@style/AppTheme.ActionBar.Transparent" />
 </manifest>

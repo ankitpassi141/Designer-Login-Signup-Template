@@ -13,7 +13,7 @@ using Android.Graphics;
 
 namespace Mockup01
 {
-    [Activity(Label = "Choose Your User Interface",MainLauncher =true)]
+    [Activity(MainLauncher =true)]
     public class FirstScreenLayout : Activity
     {
         LinearLayout mockup01, mockup02;
