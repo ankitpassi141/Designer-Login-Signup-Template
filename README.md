@@ -42,7 +42,7 @@ PS: Try to keep path of Project as small as possible, because Xamarin File Path 
 
 ## 5.   Credits
 
-Mockup 01: 
+# Mockup 01: 
 
 All the Design credits goes to Tian.
 Project Behance Link: https://www.behance.net/gallery/57263863/Xamarin-Android-Card-Style-UI-Design
@@ -50,7 +50,7 @@ Original Design: https://dribbble.com/shots/3346069-001-Log-in-Sing-up
 Profile : https://dribbble.com/Boomtiana
 
 
-Mockup 02: 
+# Mockup 02: 
 
 All the Design credits goes to Nimasha Perera.
 Project Behance Link: https://www.behance.net/gallery/57438667/Xamarin-Designer-Login-Signup
@@ -58,7 +58,7 @@ Original Design: https://dribbble.com/shots/2722811-WIP-Social-App
 Profile : https://www.behance.net/nimashasperera
 
 
-Mockup 03:
+# Mockup 03:
 
 All the Design Credits goes to me.
 Project Behance Link: https://www.behance.net/gallery/59269203/GyaanPool-Signup-Screen
